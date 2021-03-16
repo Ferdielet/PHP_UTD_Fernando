@@ -1,0 +1,51 @@
+PRIMEIRO PROGRAMA
+
+<?php
+    //5 números e verifique qual é o maior.
+   
+	$numeros = [4, 7, 12, 9, 5];
+	$maior = max($numeros);
+	echo "Maior número é {$maior}"
+	
+?>
+
+//SEGUNDO PROGRAMA
+<?php
+   
+   $valores = [16, 81, 4, 25, 49]; 
+   
+   $maior=$valores[1];
+   if ( $valores[2] > $maior ) 
+      { 
+       $maior = $valores[2];
+      }    
+    if ($valores[3] > $maior )
+       {
+        $maior = $valores[3];
+       }
+    if ($valores[4] > $maior)
+     {
+       $maior = $valores[4];
+
+    }
+
+    echo "O Maior valor é {$maior}";
+?>
+
+//TERCEIRO PROGRAMA
+<?php
+
+	$valores = array(25, 9, 100, 36, 121, 81);
+	$maiorValor = 0;
+
+ for($i = 0; $i <= 5; $i++) // for($i = 0; $i <= count($num)-1;$i++)
+ {
+   
+   if ($valores[$i] > $maiorValor){
+ 	  $maiorValor = $valores[$i];
+ 	}
+ }
+
+echo "O Maior valor é {$maiorValor}";
+
+?>
