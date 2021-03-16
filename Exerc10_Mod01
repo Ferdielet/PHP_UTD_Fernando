@@ -1,0 +1,12 @@
+//Digite uma data. Exiba separadamente o dia, o mês e o ano.
+
+<?php
+
+	$data = "16-03-2021";
+	 print_r(explode("-", $data));
+
+	echo "O dia é {$data[0]}";
+	echo "O mês é {$data[1]}";
+	echo "O ano é {$data[2]}";
+
+?>
