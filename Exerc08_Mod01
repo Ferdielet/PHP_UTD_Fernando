@@ -1,0 +1,17 @@
+//Digite várias idades. Exiba quantas pessoas são  maior  de  idade  (18  anos)  e  quantas  são menores.
+
+<?php
+
+	$idades = [25, 81, 10, 36, 13, 9, 34, 15, 56];
+	$quant = 0;
+
+ for($i = 0; $i <= count($idades)-1; $i++) 
+ {   
+   if ($idades[$i] > 18){ 
+   		$quant++;
+   	}
+ }
+ 	$menor = count($idades)-$quant;
+echo "No grupo há {$quant} idades maiores que 18 e {$menor} menores que 18";
+
+?>
