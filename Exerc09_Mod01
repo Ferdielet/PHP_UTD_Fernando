@@ -1,0 +1,23 @@
+//Digite vários nomes. Exiba na tela todos os nomes digitados, porém de maneira invertida
+
+<?php
+
+	$nomes = ['fernando', 'sandra', 'alexandre', 'ilmara'];
+	$reverso = array_reverse($nomes);
+
+	echo "O vetor é: ";
+ for($i = 0; $i <= count($nomes)-1; $i++) 
+ {   
+   	 	echo "{$nomes[$i]}\n\n";
+    	
+ }
+
+ echo "O inverso do vetor é:";
+ for($i = 0; $i <= count($reverso)-1; $i++) 
+ {   
+   
+ 	echo "{$reverso[$i]}\n\n";
+   	
+ }
+
+?>
